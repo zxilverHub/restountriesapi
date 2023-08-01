@@ -1,0 +1,35 @@
+nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    padding: 1rem 5%;
+    background-color: var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+.toggle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: .7rem;
+
+    font-size: 1rem;
+    font-weight: var(--weight-6);
+    color: var(--dark-blue-lmode-text);
+    cursor: pointer;
+}
+
+nav h1 {
+    font-size: 2rem;
+}
+
+@media (max-width: 500px) {
+    nav h1 { font-size: 1.1rem; }
+    nav { padding-inline: 3%; }
+    .toggle { gap: .4rem; }
+}

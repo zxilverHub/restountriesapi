@@ -35,7 +35,7 @@ function HomePage({ getCountryData, theme }) {
   }
 
   // theme style
-  const displayBg = { backgroundColor: theme? 'var(--dark-blue-dmode-bg)': 'var(--white)' }
+  const displayBg = { backgroundColor: theme? 'var(--dark-blue-dmode-bg)': 'var(light-gray-bg)' }
   const cardBg = {backgroundColor: theme? '#2b3a47': 'var(--white)' }
   const displayText = {
     color: theme? 'var(--white)': 'var(--dark-blue-lmode-text)',

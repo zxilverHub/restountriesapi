@@ -17,7 +17,7 @@ function App() {
     <div>
       <ThemeContext.Provider value={theme}>
         <Nav getTheme={getTheme} />
-        <Router basement="/restountriesapi" >
+        <Router basename="/restountriesapi" >
           <RouteApp />
         </Router>
       </ThemeContext.Provider>

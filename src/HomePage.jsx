@@ -41,7 +41,7 @@ function HomePage({ getCountryData, theme }) {
     color: theme? 'var(--white)': 'var(--dark-blue-lmode-text)',
     userSelect: 'none'
   }
-  const textSub = {color: theme? 'var(--light-gray-bg)': 'var(--dark-blue-lmode-text)',}
+  const textSub = {color: theme? 'var(--light-gray-bg)': 'var(--dark-blue-lmode-text)'}
 
   if (!data) {
     return (
